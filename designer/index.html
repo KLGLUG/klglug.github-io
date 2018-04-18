@@ -8,28 +8,48 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-
+<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 </head>
 <body>
- 
-<div class="container" >
- <center> <div class="card" style="width:400px;">
-<div class="card-header">
- <img class="card-img-top" src="index.jpeg" alt="Card image" style="width:70%;height:100%;border-radius:50% "/>
-</div>
+ <script>
 
-    <div class="card-body" style="background-color: #85c1e9 ">
+AOS.init({
+  duration: 1200,
+})
+</script>
+<div class="container" >
+ 
+
+
+
+
+
+<center> <div class="card" style="width:400px;margin-top:7%">
+<div class="card-header">
+<div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"> <img class="card-img-top" src="index.jpeg" alt="Card image" style="width:70%;height:100%;border-radius:50% "/>
+</div>
+</div>
+   
+
+<div data-aos="zoom-out-left"
+     data-aos-duration="3000">
+
+ <div class="card-body" style="background-color: #85c1e9 ">
 <br />
       <h4 class="card-title">Nallamilli veerraghavareddy</h4>
       <p class="card-text">Web designer & Devops Expert</p>
-</div>
-<div class="card-footer">
-      <a href="https://in.linkedin.com/in/nallamilli-veerraghavareddy-729233105" class="btn btn-primary">See Profile</a>
-    </div></center>
-  </div>
+</div></div>
 
+
+<div data-aos="zoom-in-right"><div class="card-footer">
+      <a href="https://in.linkedin.com/in/nallamilli-veerraghavareddy-729233105" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+</div></center>
   <br>
-  
 </body>
 </html>
 
